@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= HEADER ================= */
+.header {
+  margin-top: 40px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* CENTRO DO HEADER */
+.header-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-name {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ÍCONES SOCIAIS */
+.social-icons {
+  display: flex;
+  gap: 18px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff0000;
+}
+
+/* LOGO NO CANTO DIREITO */
+.logo {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+}
+
+/* ================= MAIN ================= */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+}
+
+/* CARD CENTRAL */
+.info-card {
+  background: #0f0f0f;
+  border: 1px solid #1f1f1f;
+  border-radius: 14px;
+  padding: 24px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.info-card h2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #ff0000;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  padding: 20px 12px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid #222;
+}
